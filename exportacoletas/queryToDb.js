@@ -1,5 +1,5 @@
 import sqlite3 from "sqlite3";
-import DBPATH from "dbConnection.js";
+import DBPATH from "./dbConnection.js";
 
 async function queryToDb(sql) {
   return new Promise((resolve, reject) => {
